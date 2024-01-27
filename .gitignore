@@ -22,6 +22,9 @@ Makefile
 # IDE files
 .idea/
 *.iml
+*.project
+*.settings
+*.classpath
 
 # build tools
 build-natives/.vs/
@@ -31,3 +34,6 @@ premake5*
 # test resources
 steam_appid.txt
 encryptedappticket.key
+
+# maven
+*.versionsBackup
