@@ -1,5 +1,6 @@
 package com.codedisaster.steamworks;
 
+@Deprecated
 final class SteamControllerNative {
 
 	// @off

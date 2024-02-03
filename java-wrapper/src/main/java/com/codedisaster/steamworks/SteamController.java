@@ -1,6 +1,7 @@
 package com.codedisaster.steamworks;
 
 @SuppressWarnings({ "unused", "UnusedReturnValue" })
+@Deprecated
 public class SteamController extends SteamInterface {
 
 	public enum Pad {

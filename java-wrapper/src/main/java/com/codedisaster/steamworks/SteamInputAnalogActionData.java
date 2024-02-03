@@ -1,15 +1,14 @@
 package com.codedisaster.steamworks;
 
 @SuppressWarnings("WeakerAccess")
-@Deprecated
-public class SteamControllerAnalogActionData {
+public class SteamInputAnalogActionData {
 
 	int mode;
 	float x, y;
 	boolean active;
 
-	public SteamController.SourceMode getMode() {
-		return SteamController.SourceMode.byOrdinal(mode);
+	public SteamInput.SourceMode getMode() {
+		return SteamInput.SourceMode.byOrdinal(mode);
 	}
 
 	public float getX() {

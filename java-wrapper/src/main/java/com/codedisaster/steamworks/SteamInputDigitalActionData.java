@@ -1,8 +1,7 @@
 package com.codedisaster.steamworks;
 
 @SuppressWarnings("WeakerAccess")
-@Deprecated
-public class SteamControllerDigitalActionData {
+public class SteamInputDigitalActionData {
 
 	boolean state;
 	boolean active;

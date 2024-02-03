@@ -1,7 +1,6 @@
 package com.codedisaster.steamworks;
 
-@Deprecated
-public class SteamControllerMotionData {
+public class SteamInputMotionData {
 
 	/**
 	 * C++ API uses a packed struct of floats. To avoid costly JNI calls, we just
